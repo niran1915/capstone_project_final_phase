@@ -1,0 +1,256 @@
+{
+  "dataset": "NCCD-PF; genuine bridge/tunnel concrete narrow-crack images with expert masks",
+  "dataset_doi": "10.5281/zenodo.8215100",
+  "dataset_license": "CC BY 4.0",
+  "dataset_paper_doi": "10.1038/s41597-023-02839-z",
+  "class_scope": "Masks identify narrow cracks, not a distinct fissures semantic class. No spalling or rebar GT is supplied by this dataset.",
+  "sample_counts": {
+    "narrow_crack_positive": 8,
+    "negative_control": 4
+  },
+  "mean_fissures_class_iou_positive": 0.0,
+  "mean_crack_or_fissures_iou_positive": 0.0,
+  "false_crack_or_fissures_map_rate_negative": 0.0,
+  "samples": [
+    {
+      "image_id": 14,
+      "ground_truth": "narrow_crack_positive",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 0.0,
+      "fissures_class_mask_dice": 0.0,
+      "crack_or_fissures_mask_iou": 0.0,
+      "crack_or_fissures_mask_dice": 0.0
+    },
+    {
+      "image_id": 800,
+      "ground_truth": "narrow_crack_positive",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 0.0,
+      "fissures_class_mask_dice": 0.0,
+      "crack_or_fissures_mask_iou": 0.0,
+      "crack_or_fissures_mask_dice": 0.0
+    },
+    {
+      "image_id": 1552,
+      "ground_truth": "narrow_crack_positive",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 0.0,
+      "fissures_class_mask_dice": 0.0,
+      "crack_or_fissures_mask_iou": 0.0,
+      "crack_or_fissures_mask_dice": 0.0
+    },
+    {
+      "image_id": 2285,
+      "ground_truth": "narrow_crack_positive",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 0.0,
+      "fissures_class_mask_dice": 0.0,
+      "crack_or_fissures_mask_iou": 0.0,
+      "crack_or_fissures_mask_dice": 0.0
+    },
+    {
+      "image_id": 3160,
+      "ground_truth": "narrow_crack_positive",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 0.0,
+      "fissures_class_mask_dice": 0.0,
+      "crack_or_fissures_mask_iou": 0.0,
+      "crack_or_fissures_mask_dice": 0.0
+    },
+    {
+      "image_id": 3909,
+      "ground_truth": "narrow_crack_positive",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 0.0,
+      "fissures_class_mask_dice": 0.0,
+      "crack_or_fissures_mask_iou": 0.0,
+      "crack_or_fissures_mask_dice": 0.0
+    },
+    {
+      "image_id": 4599,
+      "ground_truth": "narrow_crack_positive",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 0.0,
+      "fissures_class_mask_dice": 0.0,
+      "crack_or_fissures_mask_iou": 0.0,
+      "crack_or_fissures_mask_dice": 0.0
+    },
+    {
+      "image_id": 5378,
+      "ground_truth": "narrow_crack_positive",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 0.0,
+      "fissures_class_mask_dice": 0.0,
+      "crack_or_fissures_mask_iou": 0.0,
+      "crack_or_fissures_mask_dice": 0.0
+    },
+    {
+      "image_id": 0,
+      "ground_truth": "negative_control",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 1.0,
+      "fissures_class_mask_dice": 1.0,
+      "crack_or_fissures_mask_iou": 1.0,
+      "crack_or_fissures_mask_dice": 1.0
+    },
+    {
+      "image_id": 1802,
+      "ground_truth": "negative_control",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 1.0,
+      "fissures_class_mask_dice": 1.0,
+      "crack_or_fissures_mask_iou": 1.0,
+      "crack_or_fissures_mask_dice": 1.0
+    },
+    {
+      "image_id": 3584,
+      "ground_truth": "negative_control",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 1.0,
+      "fissures_class_mask_dice": 1.0,
+      "crack_or_fissures_mask_iou": 1.0,
+      "crack_or_fissures_mask_dice": 1.0
+    },
+    {
+      "image_id": 5387,
+      "ground_truth": "negative_control",
+      "class_detection_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "matched_mask_counts": {
+        "crack": 0,
+        "spalling": 0,
+        "rebar": 0,
+        "fissures": 0
+      },
+      "fissures_class_mask_iou": 1.0,
+      "fissures_class_mask_dice": 1.0,
+      "crack_or_fissures_mask_iou": 1.0,
+      "crack_or_fissures_mask_dice": 1.0
+    }
+  ]
+}

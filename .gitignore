@@ -1,0 +1,19 @@
+# Python environments can be created at the repository root or inside modules.
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+# Frontend dependencies and generated build output.
+frontend/node_modules/
+frontend/dist/
+
+# Local model runs and generated media/databases.
+backend/crackvision.db
+backend/storage/*
+!backend/storage/.gitkeep
+
+# Python caches and local secrets.
+__pycache__/
+*.py[cod]
+.env

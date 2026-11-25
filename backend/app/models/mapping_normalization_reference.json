@@ -1,0 +1,28 @@
+{
+  "signature": {
+    "version": "v2-key-consistent-256-analysis",
+    "threshold": 0.525,
+    "grid": [
+      20,
+      20
+    ],
+    "analysis_size": 256,
+    "physical_units": false,
+    "quantile": 0.95,
+    "weights": {
+      "crack_area_ratio": 0.25,
+      "length_density": 0.25,
+      "width_p95": 0.25,
+      "junction_density": 0.25
+    }
+  },
+  "scales": {
+    "crack_area_ratio": 1.0,
+    "length_density": 0.11774849074918148,
+    "width_p95": 48.48896789550781,
+    "junction_density": 0.011834319526627219
+  },
+  "reference_images": 1200,
+  "quantile": 0.95,
+  "meaning": "Feature normalizers estimated from validation predictions. These are not empirically validated severity thresholds."
+}

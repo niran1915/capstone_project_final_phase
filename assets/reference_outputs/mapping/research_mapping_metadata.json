@@ -1,0 +1,78 @@
+{
+  "method_version": "fixed_validation_normalized_exploratory_index_v2",
+  "dataset_root": "/kaggle/input/datasets/darshansajjana/crackvision-12k/split_dataset_final",
+  "evaluation_output_root": "/kaggle/working/cracktopo_sfnet_v4_complete_evaluation",
+  "threshold_source": "/kaggle/working/cracktopo_sfnet_v4_complete_evaluation/metrics/validation_threshold_sweep.csv",
+  "selected_validation_threshold": 0.525,
+  "analysis_size": 256,
+  "grid": [
+    20,
+    20
+  ],
+  "normalization_scales_from_validation_only": {
+    "crack_area_ratio": 1.0,
+    "length_density": 0.11774849074918148,
+    "width_p95": 48.48896789550781,
+    "junction_density": 0.011834319526627219
+  },
+  "normalization_quantile": 0.95,
+  "baseline_weights": {
+    "crack_area_ratio": 0.25,
+    "length_density": 0.25,
+    "width_p95": 0.25,
+    "junction_density": 0.25
+  },
+  "weight_scenarios": {
+    "equal": {
+      "crack_area_ratio": 0.25,
+      "length_density": 0.25,
+      "width_p95": 0.25,
+      "junction_density": 0.25
+    },
+    "length_emphasis": {
+      "crack_area_ratio": 0.2,
+      "length_density": 0.4,
+      "width_p95": 0.25,
+      "junction_density": 0.15
+    },
+    "width_emphasis": {
+      "crack_area_ratio": 0.2,
+      "length_density": 0.2,
+      "width_p95": 0.4,
+      "junction_density": 0.2
+    },
+    "area_emphasis": {
+      "crack_area_ratio": 0.4,
+      "length_density": 0.25,
+      "width_p95": 0.2,
+      "junction_density": 0.15
+    },
+    "topology_emphasis": {
+      "crack_area_ratio": 0.2,
+      "length_density": 0.2,
+      "width_p95": 0.2,
+      "junction_density": 0.4
+    }
+  },
+  "physical_units_enabled": false,
+  "sensor_axes_swapped": false,
+  "camera_geometry_mm": {
+    "height": 672.0,
+    "focal_length": 5.4,
+    "sensor_width": 7.3,
+    "sensor_height": 5.4
+  },
+  "caveats": [
+    "Index is exploratory, not validated damage severity or failure probability.",
+    "Hotspots are relative within-image rankings, not absolute damage thresholds.",
+    "Predicted-mask vs GT-mask agreement is not independent physical measurement validation.",
+    "Default measurements are at V4 model-analysis resolution of 256x256.",
+    "EDT centreline width is a proxy pending OrthoBoundary and physical gauge validation.",
+    "The 2.5D vertical axis is the derived index, not physical depth.",
+    "This output is image-space mapping, not a geographic disaster map."
+  ],
+  "processed_test_images": 1200,
+  "prediction_vs_gt_comparison_rows": 1200,
+  "failed_images_this_run": 0,
+  "visuals_saved": 12
+}

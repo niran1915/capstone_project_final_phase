@@ -1,0 +1,24 @@
+{
+  "model_path": "/kaggle/working/video_detection_model/best_reconstructed.pt",
+  "input_video": "/kaggle/input/datasets/niranjan488759/input-video/WhatsApp Video 2026-08-30 at 4.35.28 PM.mp4",
+  "output_video": "/kaggle/working/video_detection_model/video_pipeline/WhatsApp Video 2026-08-30 at 4.35.28 PM_detected.mp4",
+  "fps": 29.624753127057275,
+  "input_frame_count": 306,
+  "processed_frame_count": 306,
+  "width": 848,
+  "height": 480,
+  "duration_seconds": 10.3292,
+  "confidence_threshold": 0.25,
+  "nms_iou_threshold": 0.45,
+  "image_size": 640,
+  "frames_with_detections": 279,
+  "total_detections": 418,
+  "maximum_confidence": 0.8427467346191406,
+  "class_counts": {
+    "crack": 366,
+    "concrete spalling": 12,
+    "rebar": 40
+  },
+  "processing_time_seconds": 169.94943404197693,
+  "output_size_mb": 5.801088333129883
+}

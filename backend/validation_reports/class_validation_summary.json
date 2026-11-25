@@ -1,0 +1,41 @@
+{
+  "dataset": "NCCD-PF: external engineer-annotated narrow concrete crack masks",
+  "dataset_url": "https://zenodo.org/records/8215100",
+  "paper_url": "https://www.nature.com/articles/s41597-023-02839-z",
+  "dataset_scope": "Narrow-crack proxy under 0.3 mm; these labels do not explicitly distinguish fissures from other cracks.",
+  "interpretation": "Benchmark-level external results, not validation of the uploaded image. Metrics are unavailable for classes without matching ground truth.",
+  "classes": {
+    "crack": {
+      "status": "limited_external_performance",
+      "summary": "NCCD-PF: crack-map IoU 0.102 and Dice 0.125 averaged across 30 narrow-crack positives; generic crack-or-fissure detector recall was 12/30 (40%).",
+      "dataset": "NCCD-PF",
+      "positive_samples": 30,
+      "mapping_iou_mean": 0.10192359074503246,
+      "mapping_dice_mean": 0.1254977247186594,
+      "detector_crack_family_recall": 0.4,
+      "limitations": "External narrow-crack sample, not a general crack-severity or field-performance estimate."
+    },
+    "fissures": {
+      "status": "poor_proxy_performance",
+      "summary": "On the narrow-crack proxy, strict fissures detections were 1/30 (3.3%). The multi-class map produced no crack/fissure pixels on 8/8 sampled positives; a fissures detector-positive example had no matched FastSAM mask.",
+      "dataset": "NCCD-PF narrow-crack proxy; not explicit fissures labels",
+      "positive_samples": 30,
+      "strict_detector_recall": 0.03333333333333333,
+      "multiclass_map_positive_samples": 8,
+      "strict_fissures_map_iou_mean": 0.0,
+      "limitations": "A dedicated fissures-labelled benchmark is not available in the validation bundle; the narrow-crack proxy is not semantically identical to the model's fissures class."
+    },
+    "spalling": {
+      "status": "not_independently_validated",
+      "summary": "No class-matched pixel ground truth was available; numeric spalling mapping accuracy is not reported.",
+      "dataset": null,
+      "limitations": "FastSAM masks are class-agnostic proposals matched to detector boxes, not supervised spalling masks."
+    },
+    "rebar": {
+      "status": "not_independently_validated",
+      "summary": "No class-matched pixel ground truth was available; numeric rebar mapping accuracy is not reported.",
+      "dataset": null,
+      "limitations": "FastSAM masks are class-agnostic proposals matched to detector boxes, not supervised rebar masks."
+    }
+  }
+}
